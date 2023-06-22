@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: rgb(162, 233, 162);
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25px 48px 20px;
+    align-items: center;
+}
+.header1 nav ul{
+    display: none;
+}
+.map{
+    padding: 15px 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+@media screen and (min-width:835px){
+    .header1 nav ul{
+        display: flex;
+        column-gap: 30px;
+    }
+    .header1 nav ul li a{
+        color: white;
+    }
+    .burger{
+        display: none;
+    }
+    .header1{
+        padding: 35px 130px 38px 135px;
+}

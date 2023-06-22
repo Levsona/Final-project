@@ -40,8 +40,26 @@ header{
 .main-grid-1{
 border-style: solid;
 border-radius: 5px;
-border-color: white;
+border-colorhite;
 padding: 46px 30px;
+border:30px 46px;
+border-color: white;
+}
+.main-grid-2{
+    border-style: solid;
+border-radius: 5px;
+border-colorhite;
+padding: 46px 30px;
+border:30px 46px;
+border-color: white;
+}
+.main-grid-3{
+    border-style: solid;
+border-radius: 5px;
+border-colorhite;
+padding: 46px 30px;
+border:30px 46px;
+border-color: white;
 }
 .main-grid ul{
     padding-bottom: 45px;
@@ -51,7 +69,36 @@ padding: 46px 30px;
     padding: 11.5px 29.5px;
     color: white;
 }
-
+.money{
+    color:black;
+    font-size: 40px;
+    text-align: center;
+}
+.month{
+    font-size: 15px;
+}
+.money-month{
+    text-align: center;
+    padding-bottom: 10px;
+    row-gap: 5px;
+}
+.footer-div{
+    background-color: #74C69D;
+    margin-top: 10px;
+}
+.footer-social ul {
+    display: flex;
+    justify-content: center;
+    padding-top:31px;
+    padding-bottom: 31px;
+    gap: 10px;
+}
+.footer-div .footer-span span{
+    font-size: 20px;
+    color: white;
+    padding: 0 24px 31px 34px;
+    
+}
 @media screen and (min-width:835px){
     .header1 nav ul{
         display: flex;
@@ -66,3 +113,16 @@ padding: 46px 30px;
     .header1{
         padding: 35px 130px 38px 135px;
     }
+    .main-grid{
+        grid-template-columns: repeat(3,1fr);
+        padding: 78px 106px 135px 107px;
+    }
+    .footer-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 131px;
+        padding-right: 131px;
+    }
+}
+    
