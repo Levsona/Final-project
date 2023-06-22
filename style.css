@@ -46,6 +46,93 @@ header{
     color: white;
     padding: 30px 20px 40px 20px;
 }
+.main-header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.social{
+    display: grid;
+    gap: 40PX;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.social span{
+    border-style: solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 13px 29px 10px 29px; 
+}
+.social span a{
+    color: white;
+}
+.main-loren{
+    display: grid;
+    gap: 60px;
+    padding: 0 21px 40px 20px;
+}
+.main-loren h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.main-loren p{
+    margin-bottom: 29px;
+}
+.main-loren span{
+    border-style: solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 13px 29px 10px 29px;
+    }
+    .main-loren span a{
+        color: white;
+    }
+    .main-header h1{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .article-header{
+        text-align: center;
+        padding-top: 42px;
+        padding-bottom: 41px;
+    }
+    .article-header h1{
+        padding-top: 15px;
+        padding-bottom: 15px; 
+    }
+ 
+    .article-div{
+        display: grid;
+        text-align: center;
+        row-gap: 15px;
+    }
+    .article-div span{
+     border-style: solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 13px 29px 10px 29px;
+    margin-bottom: 54px;
+    }
+    .article-div span a{
+        color: white;
+    }
+    .footer-div{
+        background-color: #74C69D;
+    }
+    .footer-social ul {
+        display: flex;
+        justify-content: center;
+        padding-top:31px;
+        padding-bottom: 31px;
+        gap: 10px;
+    }
+    .footer-div .footer-span span{
+        font-size: 20px;
+        color: white;
+        padding: 0 24px 31px 34px;
+        
+    }
 @media screen and (min-width:835px){
     .header1 nav {
         display: block;
@@ -88,4 +175,59 @@ header{
         padding-left: 168px;
 
     }
+    .social{
+        grid-template-columns: repeat(5,1fr);
+        padding: 55px 140px 83px 130px;
+    }
+    .social span{
+        grid-column: 3;
+        color: white;
+    }
+    .main-loren{
+        padding: 73px 130px;
+    }
+    .main-loren-1{
+        display: flex; 
+        align-items: center;       
+    }
+    .main-loren-1 img{
+        max-width: 100%;
+    }
+    .main-loren-1 div{
+        padding-left: 113px;
+        max-width: 470px;
+    }
+    .main-loren-2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .main-loren-2 div{
+        padding-right: 113px;
+        max-width: 470px;
+    }
+    .main-loren-2 img{
+        max-width: 100%;
+    }
+    .main-header h1{
+        font-size: 40px;
+    }
+    .article-div{
+        grid-template-columns: repeat(4,1fr);
+        padding-left: 132px;
+        padding-right: 132px;
+        column-gap: 43px;
+    }
+    .article-div span{
+        grid-column: 3;
+        margin-top: 45px;
+    }
+    .footer-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 131px;
+        padding-right: 131px;
+    }
+
 }
