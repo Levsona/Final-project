@@ -66,6 +66,18 @@ header{
 .social span a{
     color: white;
 }
+.social-test{
+    text-align: center;
+    margin-bottom: 39px;
+}
+.social-test span{
+    border-radius: 5px;
+background-color: black;
+padding: 13px 29px 10px 29px;
+}
+.social-test span a{
+    color: white;
+}
 .main-loren{
     display: grid;
     gap: 60px;
@@ -107,14 +119,19 @@ header{
         text-align: center;
         row-gap: 15px;
     }
-    .article-div span{
-     border-style: solid;
+   
+    .test{
+        text-align: center;
+        margin-top: 44px;
+        margin-bottom: 39px;
+    }
+    .test span{
     border-radius: 5px;
     background-color: black;
     padding: 13px 29px 10px 29px;
-    margin-bottom: 54px;
     }
-    .article-div span a{
+    
+    .test span a{
         color: white;
     }
     .footer-div{
@@ -218,10 +235,7 @@ header{
         padding-right: 132px;
         column-gap: 43px;
     }
-    .article-div span{
-        grid-column: 3;
-        margin-top: 45px;
-    }
+    
     .footer-div{
         display: flex;
         align-items: center;
@@ -229,5 +243,17 @@ header{
         padding-left: 131px;
         padding-right: 131px;
     }
+    .test{
+        text-align: center;
+        background-color: white;
+          margin-top: 45px;
+          margin-bottom: 54px;
+    }
+    .test span{
+        background-color: black;
+        border-radius: 5px;
+        padding: 13px 33px 10px 33px;
+    }
+    
 
 }

@@ -37,9 +37,10 @@ form label{
     margin-bottom: 16px;
 }
 form input{
-    width: 335px;
+    width: 320px;
     height: 38px;
     margin-top: 16px;
+    margin-bottom: 16px;
 }
 form{
     padding: 10px 20px;
@@ -74,6 +75,12 @@ button{
     padding: 0 24px 31px 34px;
     
 }
+.message{
+    height: 141px;
+}
+.larg-map{
+    display: none;
+}
     
 @media screen and (min-width:835px){
     .header1 nav ul{
@@ -93,16 +100,32 @@ button{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
 }
-.map{
-    max-zoom: 100%;
+form input{
+    width: 575px;
+    height: 38px;
+    margin-top: 16px;
 }
+
+
 .footer-div{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 131px;
     padding-right: 131px;
+}
+.message {
+    height: 75px;
+}
+.small-map{
+    display: none;
+}
+.larg-map{
+    display: block;
 }
 }
 
