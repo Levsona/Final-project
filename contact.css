@@ -32,6 +32,10 @@ header{
 .map{
    padding: 39px 20px 10px 20px;
 }
+#contact a{
+    color:blue;
+}
+
 form label{
     font-size: 20px;
     margin-bottom: 16px;
@@ -82,7 +86,7 @@ button{
     display: none;
 }
     
-@media screen and (min-width:835px){
+@media screen and (min-width:769px){
     .header1 nav ul{
         display: flex;
         column-gap: 30px;

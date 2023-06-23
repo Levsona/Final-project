@@ -26,6 +26,9 @@ header{
 .header1 nav ul{
     display: none;
 }
+#services a{
+    color: green;
+}
 .main-div{
     text-align: center;
     margin-top: 35px;
@@ -38,30 +41,19 @@ header{
     display:grid;
 }
 .main-grid-1{
-border-style: solid;
-border-radius: 5px;
-border-colorhite;
+box-shadow:5px 5px 0px #00000040;
 padding: 46px 30px;
-border:30px 46px;
-border-color: white;
 }
 
 .main-grid-2{
-    border-style: solid;
-border-radius: 5px;
-border-colorhite;
 padding: 46px 30px;
-border:30px 46px;
-border-color: white;
-}
+box-shadow:5px 5px 0px #00000040;
 
+}
 .main-grid-3{
-    border-style: solid;
-border-radius: 5px;
-border-colorhite;
+box-shadow:5px 5px 0px #00000040;
 padding: 46px 30px;
-border:30px 46px;
-border-color: white;
+
 }
 .main-grid ul{
     padding-bottom: 45px;
@@ -101,7 +93,7 @@ border-color: white;
     padding: 0 24px 31px 34px;
     
 }
-@media screen and (min-width:835px){
+@media screen and (min-width:769px){
     .header1 nav ul{
         display: flex;
         column-gap: 30px;
@@ -118,6 +110,7 @@ border-color: white;
     .main-grid{
         grid-template-columns: repeat(3,1fr);
         padding: 78px 106px 135px 107px;
+        gap: 100px;
     }
     .footer-div{
         display: flex;
